@@ -18,8 +18,16 @@
 1. ブランチをマージさせる
 
 ```
-##ブランチの切り替えとかプルとか出来ない時
+## ブランチの切り替えとかプルとか出来ない時
 ```
 1. `git stash`で現在行っている作業を一時退避
 1. `git reset --hard  HEAD`を実行
+```
+
+## ローカルでGitHubの操作をする
+```
+1.  git remote add origin コピーしたSSHプロトコルURL
+2. 'git remote -v' 登録した送り先を確認
+3. "git push origin master" リモートリポジトリ(GitHubリポジトリ)に送信
+4. ""git push origin ブランチ名" ブランチをリモートリポジトリに送信
 ```
