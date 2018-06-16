@@ -8,16 +8,23 @@
 1. 編集したら`git diff`で編集内容を確認
 ```
 
+<<<<<<< HEAD
 ##Git コマンド（ブランチ）
+>>>>>>> develop
 ```
 1. `git branch`でブランチの一覧を確認
 1. `git branch hoge`でブランチを追加
 1. `git checkout hoge`でブランチを移動
 1. `git checkout -b develop`でdevelopブランチを作成 && そこのブランチへ移動
+<<<<<<< HEAD
 1. ブランチをマージさせる
 
 ```
 ##ブランチの切り替えとかプルとか出来ない時
 ```
 1. `git stash`で現在行っている作業を一時退避
+1. `git reset --hard  HEAD`を実行
+=======
+
+>>>>>>> develop
 ```
