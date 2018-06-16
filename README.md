@@ -14,7 +14,6 @@
 1. `git branch hoge` でブランチを追加
 1. `git checkout hoge` でブランチを移動
 1. `git checkout -b develop` でdevelopブランチを作成 && そこのブランチへ移動
-<<<<<<< HEAD
 1. ブランチをマージさせる
 
 ```
